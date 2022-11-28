@@ -1,0 +1,102 @@
+body {
+    background-image: linear-gradient(45deg, rgb(91, 91, 243), rgb(243, 55, 55));;
+    margin: auto;
+    max-width: 1300px;
+}
+header {
+    background-image: linear-gradient(45deg, blue, red);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    height: var(--headerheight);
+    max-width: 1300px;
+    box-shadow: -1px 9px 5px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 9px 5px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 9px 5px -4px rgba(0, 0, 0, 0.75);
+}
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Exo 2', sans-serif;
+    padding: 0%;
+    margin: 0%;
+    color: white;
+}
+footer {
+    padding: 20px;
+    background-image: linear-gradient(45deg, blue, red);
+    justify-content: space-around;
+    text-align: center;
+    font-size: large;
+}
+.step1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.image3 img {
+    width: 150;
+    height: 60vh;
+}
+.step2 {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+    flex: 70%;
+    padding: 0 50px 0 0;
+    height: fit-content;
+    flex-wrap: wrap;    
+}
+.logo {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1.8em;
+    color: white;
+}
+.navigation a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-left: 28.8px;
+    text-transform: uppercase;
+}
+.step {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: url(/image/gameimg.jpg) no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    margin-top: var(--headerheight);
+}
+.step-text {
+    color: #f0e9d6;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+section {
+    padding: 100px;
+}
+.adv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+html {
+    text-align: justify;
+}
+.why {
+    background-image: linear-gradient(45deg, blue, red);
+}
